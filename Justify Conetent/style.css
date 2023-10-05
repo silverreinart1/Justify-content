@@ -1,47 +1,47 @@
-.flex-container {
-    border-radius: 5%;
-    justify-content: center;
-    display: flex;
-    height: 60px;
-    border: 2px solid black;
-    margin: 10px;
-    width: 250px;
-    background-color: red;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="flex-container justify-start">
+        <div class="box">flex-start</div>
+        <div class="box">flex-start</div>
+        <div class="box">flex-start</div>
+    </div>
 
-.box {
-    border-radius: 8%;
-    width: 40px;
-    height: 40px;
-    background-color: blue;
-    color: blue;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10px;
-    font-size: 5px;
-}
+    <div class="flex-container justify-end">
+        <div class="box">flex-end</div>
+        <div class="box">flex-end</div>
+        <div class="box">flex-end</div>
+    </div>
 
-.justify-start {
-    justify-content: flex-start;
-}
+    <div class="flex-container justify-center">
+         <div class="box">flex-center</div>
+         <div class="box">flex-center</div>
+         <div class="box">flex-center</div>
+    </div>
 
-.justify-end {
-    justify-content: flex-end;
-}
+    <div class="flex-container space-between">
+         <div class="box">space-between</div>
+         <div class="box">space-between</div>
+         <div class="box">space-between</div>
+    </div>
 
-.justify-center {
-    justify-content: center;
-}
+    <div class="flex-container space-around">
+        <div class="box">space-around</div>
+        <div class="box">space-around</div>
+        <div class="box">space-around</div>
+    </div>
 
-.space-between {
-    justify-content: space-between;
-}
+    <div class="flex-container space-evenly">
+        <div class="box">space-evenly</div>
+        <div class="box">space-evenly</div>
+        <div class="box">space-evenly</div>
+    </div>
 
-.space-arond {
-    justify-content: space-around;
-}
-
-.space-evenly {
-    justify-content: space-evenly;
-}
+</body>
+</html>
